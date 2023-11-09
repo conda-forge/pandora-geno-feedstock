@@ -14,7 +14,7 @@ build:
     - pandora = pandora.main:main
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -57,10 +57,6 @@ test:
     - pandora --help
   requires:
     - pip
-    - pytest
-  commands:
-    - pip check
-    - pandora --help
 
 about:
   home: https://github.com/tschuelia/Pandora
