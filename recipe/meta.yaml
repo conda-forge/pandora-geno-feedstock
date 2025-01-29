@@ -1,5 +1,5 @@
 {% set name = "pandora-geno" %}
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/tschuelia/Pandora/archive/{{ version }}.tar.gz
-  sha256: b7f95b09bda496cc9f29ef91f7f1ccd3dbe39114a630cdf4249a47c338ee5075
+  sha256: a632b8268ca1159d136dc7c836013391e82ddc0c38e9c0c342375ebe4b1d2716
 
 build:
   entry_points:
